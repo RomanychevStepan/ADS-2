@@ -6,8 +6,7 @@
 double pown(double value, uint16_t n) {
     if (n == 0) {
         return 1;
-    }
-    else {
+    } else {
         double a = 1;
         for (uint16_t i = 1; i <= n; i++) {
             a = value * a;
@@ -19,8 +18,7 @@ double pown(double value, uint16_t n) {
 uint64_t fact(uint16_t n) {
     if (n == 0) {
         return 1;
-    }
-    else {
+    } else {
         return n * fact(n-1);
     }
 }
